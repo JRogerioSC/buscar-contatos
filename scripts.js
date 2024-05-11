@@ -13,7 +13,7 @@ const contacts = [
 function search() {
     for (let i = 0; i < contacts.length; i++) {
 
-        if (input.value.toLowerCase === contacts[i].name.toLowerCase) {
+        if (input.value.toLowerCase() === contacts[i].name.toLowerCase()) {
             p.innerHTML = `Contato Encontrado, Nome: ${contacts[i].name} tel: ${contacts[i].number}`
 
             break
