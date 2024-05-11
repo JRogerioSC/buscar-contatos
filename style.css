@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(54, 54, 56);
+}
+
+
+
+input {
+    font-size: 35px;
+    background-color: rgb(25, 35, 36);
+    color: white;
+}
+
+button {
+    font-size: 20px;
+    color: blanchedalmond;
+    background-color: black;
+    color: brown;
+}
+
+p{
+    font-size: 40px;
+    color: chartreuse;
+}
